@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/phantom-armies",
     "maintainers": [
       {
@@ -16,111 +16,345 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "phantom-armies",
     "name": "Phantom Armies",
-    "aliases": [],
-    "category": "GHOST",
-    "subcategory": "Unknown",
+    "aliases": [
+      { "name": "Spectral armies", "language": "English" },
+      { "name": "Ghost armies (battlefield apparitions)", "language": "English" },
+      { "name": "Drosoulites", "language": "Greek", "region": "Crete", "meaning": "'Dew shadows', the phantom soldiers of Frangokastello" },
+      { "name": "Wild Hunt (related)", "language": "Germanic / Norse", "region": "Northern Europe", "meaning": "Spectral host of huntsmen, sometimes assimilated to phantom-army traditions" }
+    ],
+    "category": "GHOST_HAUNTING",
+    "subcategory": "Collective battlefield / mass apparition",
     "tags": [
-      "folklore",
-      "mythology"
+      "ghost",
+      "battlefield",
+      "apparition",
+      "war",
+      "civil-war",
+      "mirage",
+      "fata-morgana",
+      "edge-hill",
+      "drosoulites",
+      "gettysburg"
     ],
     "status": "documented",
     "description": {
-      "summary": "Phantom Armies, also known as spirit hosts, spectral battles, or aerial armies, are large-scale collective apparitions involving the ghostly manifestation of soldiers, warriors, or entire military engagements.",
-      "full": "Phantom Armies, also known as spirit hosts, spectral battles, or aerial armies, are large-scale collective apparitions involving the ghostly manifestation of soldiers, warriors, or entire military engagements. These phenomena typically involve the sounds and sights of historical battles replaying themselves, often in the sky or on historic battlefields. Unlike individual ghosts, phantom armies represent mass hauntings with dozens to thousands of spectral figures appearing simultaneously. Witnesses report hearing battle sounds, seeing formations of soldiers, observing cavalry charges, and watching entire engagements unfold as if history were replaying itself."
+      "summary": "Phantom armies are large-scale collective apparitions of soldiers and battles, in which witnesses report seeing or hearing entire ghostly armies, cavalry charges, or re-enacted engagements at historical battlefields and other sites of mass military death.",
+      "full": "Phantom armies (also called spectral armies, ghost armies, or, in the Cretan tradition, Drosoulites - 'dew shadows') are reports of mass apparitions involving multiple soldiers, cavalry, or whole armies, typically associated with historical battlefields and sometimes with sites of large-scale military death. The category is distinct from individual battlefield ghosts in that the apparitions are explicitly collective and often re-enact organised military formations, marches, or combat. Famous cases include the 1642-43 phantom re-enactment of the Battle of Edgehill in Warwickshire, England (the first major battle of the English Civil War), described in the contemporary pamphlet 'A Great Wonder in Heaven' (1643); the Drosoulites of Frangokastello in Crete, an annual late-May/early-June apparition associated with the 1828 Battle of Frangokastello during the Greek War of Independence; and the long-standing tradition of phantom soldiers and ghostly engagements at Gettysburg, Pennsylvania, site of the bloodiest battle of the American Civil War (1-3 July 1863). Skeptical scientific framings explain at least some cases as mirages or Fata Morgana - particularly the Drosoulites - as well as misidentification, suggestion, and pareidolia. The category does not include the World-War-II 23rd Headquarters Special Troops ('Ghost Army'), an Allied deception unit and a separate phenomenon."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "English compound from 'phantom' (Greek phantasma, 'apparition') and 'army'.",
+      "meaning": "Apparitional collectives of soldiers - whether marching, fighting, or simply present - reported at battlefields and other military sites.",
+      "first_use": "The English compound is recorded in 19th-century paranormal and folkloric writing; underlying traditions of apparitional armies are documented from antiquity (e.g. Plutarch on the apparitions at Marathon)."
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "GHOST",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "GHOST_HAUNTING",
+      "type": "Mass / collective apparition",
+      "subtype": "Battlefield apparition",
+      "variant": "Cross-cultural (with European, Mediterranean, and North American clusters)"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "wild-hunt", "name": "Wild Hunt", "relationship": "related", "description": "Northern European spectral host of huntsmen, often confused with or feeding into phantom-army folklore" },
+      { "id": "battlefield-ghosts", "name": "Battlefield ghosts (individual)", "relationship": "subset", "description": "Individual battlefield ghosts can be considered a subset; phantom armies are the collective form" },
+      { "id": "fata-morgana", "name": "Fata Morgana / superior mirage", "relationship": "related", "description": "Atmospheric optical phenomenon implicated in some phantom-army reports, especially the Drosoulites" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Multiple human figures in formation", "description": "Apparitions explicitly involve many soldiers, often in ranks, columns, or organised formations", "frequency": "always" },
+        { "feature": "Period military dress", "description": "Soldiers appear in the uniforms or arms of a specific historical battle - English Civil War, Greek War of Independence, American Civil War, etc.", "frequency": "common" },
+        { "feature": "Auditory components", "description": "Reports often include the sounds of battle: hoofbeats, trumpets, gunfire, cannon, screams of horses, clash of metal", "frequency": "common" },
+        { "feature": "Cyclical / anniversary reappearance", "description": "Many phantom-army apparitions are reported on or near the anniversary of the original battle", "frequency": "common" }
+      ],
+      "morphology": "Apparitional rather than physical; reported as visual and/or auditory experiences rather than as solid figures."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Re-enactment of historical battles", "description": "Apparitions re-perform identifiable elements of the original engagement (formations, charges, cries)", "frequency": "common", "evidence_level": "reported" },
+      { "ability": "Anniversary recurrence", "description": "Reappearance tied to the calendar date of the original battle", "frequency": "common", "evidence_level": "reported" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "passive",
+      "social_structure": "colony",
+      "habitat_preference": ["historical battlefields", "siege sites", "sites of mass military death"],
+      "patterns": [
+        "Apparitions cluster on or near anniversaries of historical battles",
+        "Reports are concentrated at specific named sites with known military history",
+        "Audio-only and visual-only reports both occur",
+        "Some reports involve identifiable specific soldiers (e.g. Sir Edmund Verney at Edgehill)"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Phantom-army reports are recorded worldwide but cluster around famous battlefields in Europe, the Mediterranean, and North America.",
+      "continents": ["Europe", "North America", "Asia"],
+      "countries": ["United Kingdom", "Greece", "United States", "France", "Germany"],
+      "regions": ["Britain", "Crete", "Pennsylvania (Gettysburg)", "Northern France (Western Front)", "Scottish Highlands"]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Edge Hill, Warwickshire, England",
+        "location": {
+          "description": "Site of the Battle of Edgehill (23 October 1642), the first major battle of the English Civil War",
+          "country": "United Kingdom",
+          "region": "Warwickshire, England",
+          "coordinates": { "latitude": 52.1310, "longitude": -1.4880 }
+        },
+        "peak_period": "1642-1643",
+        "notes": "Coordinates approximate; site of the 1642-43 phantom re-enactment described in the 1643 pamphlet A Great Wonder in Heaven."
+      },
+      {
+        "name": "Frangokastello, Crete, Greece",
+        "location": {
+          "description": "14th-century Venetian fortress on Crete's south coast; site of the 1828 Battle of Frangokastello",
+          "country": "Greece",
+          "region": "Sfakia, Crete",
+          "coordinates": { "latitude": 35.1739, "longitude": 24.2300 }
+        },
+        "peak_period": "1828 to present (annual)",
+        "notes": "Drosoulites apparitions reported on the anniversary of the Battle of Frangokastello (17 May 1828); coordinates from public reference works."
+      },
+      {
+        "name": "Gettysburg, Pennsylvania, USA",
+        "location": {
+          "description": "Site of the Battle of Gettysburg (1-3 July 1863), the bloodiest battle of the American Civil War",
+          "country": "United States",
+          "region": "Pennsylvania",
+          "coordinates": { "latitude": 39.8309, "longitude": -77.2311 }
+        },
+        "peak_period": "1863 to present",
+        "notes": "One of the most-cited concentrations of battlefield apparition reports in North America."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "Antiquity",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Plutarch's account of nightly apparitions of soldiers and horses at the battlefield of Marathon (Plutarch, Theseus 35, 1st-2nd century CE)."
+      },
+      "peak_activity_periods": [
+        { "period": "1640s", "description": "Edgehill phantom re-enactment, contemporary pamphlet literature, and Royal Commission investigation." },
+        { "period": "19th-21st centuries", "description": "Modern documentation of Drosoulites in Crete and Gettysburg battlefield apparitions." }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Phantom-army traditions appear across cultures with major battle sites. They draw on broader traditions of restless dead, anniversary haunting, and supernatural witness to mass violence.",
+      "earliest_accounts": "Ancient examples include Plutarch's account of nightly apparitions at Marathon. The earliest detailed modern documentation is the 1643 pamphlet A Great Wonder in Heaven describing the Edgehill apparitions.",
+      "folklore_connections": "Connected to Wild Hunt traditions in Northern Europe, to anniversary-ghost folklore, and to broader belief in the unsettled dead of mass violence."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1642-10-23", "event": "Battle of Edgehill, the first major battle of the English Civil War, fought between Royalist and Parliamentarian forces", "significance": "Historical battle that becomes the focus of the most famous English phantom-army tradition", "source": "Standard English Civil War histories" },
+      { "date": "1643-01-23", "event": "Pamphlet A Great Wonder in Heaven describes a phantom re-enactment of the Battle of Edgehill seen by shepherds and locals; King Charles I sends a Royal Commission to investigate, which reportedly observes the apparitions", "significance": "Foundational early-modern phantom-army documentation", "source": "A Great Wonder in Heaven (London, 1643)" },
+      { "date": "1828-05-17", "event": "Battle of Frangokastello, in which Hatzimichalis Dalianis and roughly 350-400 Greek fighters were killed by Ottoman forces", "significance": "Historical event underlying the Drosoulites tradition", "source": "Greek War of Independence histories" },
+      { "date": "1863-07-01", "event": "Battle of Gettysburg begins; over the next three days approximately 50,000 men are killed, wounded, or missing - the costliest battle of the American Civil War", "significance": "Historical battle underlying the long-running Gettysburg battlefield apparition tradition", "source": "Standard American Civil War histories" }
+    ],
+    "modern_era": "Phantom-army reports continue to be documented at sites such as Gettysburg, Edgehill, Frangokastello, and First World War battlefields in northern France and Belgium. The category remains active in popular paranormal investigation and battlefield-tourism literature."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
       "verified": 0,
       "disputed": 0,
-      "debunked": 0
+      "debunked": 0,
+      "date_range": { "earliest": "1642", "latest": "2026" }
     },
-    "notable": [],
+    "notable": [
+      {
+        "id": "phantom-armies-edgehill-1642",
+        "name": "Phantom re-enactment of the Battle of Edgehill",
+        "date": { "value": "1642-12-24", "precision": "approximate" },
+        "location": {
+          "description": "Edge Hill, Warwickshire, England, near Kineton",
+          "country": "United Kingdom",
+          "region": "Warwickshire",
+          "coordinates": { "latitude": 52.1310, "longitude": -1.4880, "precision": "approximate" }
+        },
+        "witnesses": { "count": 0, "types": ["Local shepherds and townspeople", "Royal Commission appointed by Charles I"], "credibility_factors": ["Contemporary pamphlet documentation", "Royal Commission investigation"] },
+        "description": "Around Christmas 1642, shepherds and travellers near Edge Hill reported hearing the sounds of battle and seeing a ghostly re-enactment of the engagement of 23 October 1642 in the night sky, including cavalry charges and the clash of arms. The pamphlet A Great Wonder in Heaven (published 23 January 1643) records the event; King Charles I subsequently sent a Royal Commission, which is said to have observed the apparitions and identified specific officers, including the king's standard-bearer Sir Edmund Verney.",
+        "credibility": { "rating": "medium", "factors": ["Contemporary pamphlet evidence", "Royal Commission investigation", "Multiple witnesses"], "notes": "One of the best-documented early-modern phantom-army reports." },
+        "sources": ["A Great Wonder in Heaven (London, 1643)"],
+        "featured": true
+      },
+      {
+        "id": "phantom-armies-drosoulites-frangokastello",
+        "name": "Drosoulites of Frangokastello",
+        "date": { "value": "1828-05-17", "precision": "approximate" },
+        "location": {
+          "description": "Frangokastello, Sfakia, southern coast of Crete",
+          "country": "Greece",
+          "region": "Crete",
+          "coordinates": { "latitude": 35.1739, "longitude": 24.2300, "precision": "approximate" }
+        },
+        "witnesses": { "count": 0, "types": ["Local Cretan residents and visitors over many years"], "credibility_factors": ["Multi-witness, cyclic, multi-generational reports"] },
+        "description": "Around the anniversary of the Battle of Frangokastello (17 May 1828), residents of the area report seeing a procession of dark, human-like shadows moving from the monastery of Agios Charalambos toward the Frangokastello fortress, dissolving when they reach the sea. The phenomenon, called Drosoulites ('dew shadows') by locals, typically lasts about ten minutes, occurring at dawn under calm and humid conditions. Mainstream scientific explanation links the phenomenon to a Fata Morgana superior mirage of objects on the coast of North Africa.",
+        "credibility": { "rating": "medium", "factors": ["Long-running consistent multi-witness tradition", "Plausible Fata Morgana explanation"], "notes": "Among the best-documented modern collective apparition phenomena, with a strong atmospheric-optics counter-explanation." },
+        "sources": ["Wikipedia: Drosoulites"],
+        "featured": true
+      },
+      {
+        "id": "phantom-armies-gettysburg",
+        "name": "Battlefield apparitions at Gettysburg",
+        "date": { "value": "1863-07-01", "precision": "approximate" },
+        "location": {
+          "description": "Gettysburg battlefield, Adams County, Pennsylvania",
+          "country": "United States",
+          "region": "Pennsylvania",
+          "coordinates": { "latitude": 39.8309, "longitude": -77.2311, "precision": "approximate" }
+        },
+        "witnesses": { "count": 0, "types": ["Visitors, residents, park staff over many years"], "credibility_factors": ["Persistent multi-decade tradition", "Many independent reports"] },
+        "description": "Since the late 19th century, visitors, locals, and park staff have reported phantom soldiers, the sounds of musketry and cannon, and at times groups or formations of period-uniformed figures across various sectors of the Gettysburg battlefield, including Devil's Den, Little Round Top, and the Triangular Field.",
+        "credibility": { "rating": "low", "factors": ["Anecdotal", "No physical or instrumented evidence", "Strong cultural-tourism context"], "notes": "Best-known American battlefield apparition tradition." },
+        "sources": ["Mark Nesbitt, Ghosts of Gettysburg series"]
+      }
+    ],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "phantom-armies-evidence-edgehill-pamphlet",
+        "type": "pamphlet",
+        "name": "A Great Wonder in Heaven (1643)",
+        "description": "Anonymous pamphlet published in London on 23 January 1643 reporting the phantom re-enactment of the Battle of Edgehill seen by shepherds, travellers, and (subsequently) a Royal Commission appointed by King Charles I.",
+        "status": "disputed",
+        "analysis": "The earliest substantial documentary record of an English phantom-army apparition; treated by historians both as evidence of the phenomenon and as a piece of Civil War propaganda.",
+        "source": "A Great Wonder in Heaven (London, 1643)"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "paranormal": [
+      {
+        "name": "Residual / 'stone tape' haunting",
+        "description": "Within paranormal frameworks, phantom armies are typically explained as residual hauntings - environmental recordings of intense events 'replayed' under suitable conditions, with no consciousness involved.",
+        "proponents": ["20th-century paranormal investigators (e.g. T. C. Lethbridge, Peter Underwood)"],
+        "evidence_cited": ["Anniversary timing", "Re-enactment quality of apparitions", "Battlefield siting"]
+      },
+      {
+        "name": "Restless mass dead",
+        "description": "Folkloric explanation: those who died violently in battle remain unsettled and re-enact their last moments.",
+        "proponents": ["Traditional folkloric explanation"],
+        "evidence_cited": ["Centuries-old battlefield ghost traditions worldwide"]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Fata Morgana / superior mirage",
+        "description": "At least the Drosoulites have been credibly explained as Fata Morgana superior mirages, in which objects (potentially on the North African coast) are refracted into apparently animated images visible across the sea.",
+        "proponents": ["Greek meteorologists and paranormal researchers"],
+        "evidence_cited": ["Phenomenon occurs only in calm, humid pre-dawn conditions", "Apparent procession behaviour consistent with refractive distortion"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Suggestion, expectation, and selective memory",
+        "description": "Skeptical analysts argue phantom-army experiences arise from a combination of suggestion (visiting a famous battlefield primes apparition reports), pareidolia in low light, and selective recall.",
+        "proponents": ["Joe Nickell", "Benjamin Radford"],
+        "evidence_cited": ["Strong correlation with high-tourism battlefield sites", "Increase of reports following media coverage"]
+      },
+      {
+        "name": "Pamphlet / propaganda explanation (Edgehill)",
+        "description": "Some historians argue the 1643 Edgehill pamphlet was Civil War-era political propaganda rather than a straightforward report.",
+        "proponents": ["English Civil War historians"],
+        "evidence_cited": ["Political context of the 1643 pamphlet press"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "English Civil War battlefield ghost tradition",
+        "Greek 'Drosoulites' tradition of Frangokastello",
+        "American Civil War battlefield ghost tradition (especially Gettysburg)",
+        "Western European Wild Hunt tradition",
+        "First World War battlefield apparition tradition (Mons, Western Front)"
+      ],
+      "stories": [
+        "The 1642-43 Edgehill phantom re-enactment and the Royal Commission investigation",
+        "The annual Drosoulites at Frangokastello",
+        "Phantom-soldier sightings at Gettysburg's Devil's Den and Little Round Top"
+      ],
+      "beliefs": "Phantom-army apparitions are widely treated in folklore as evidence that violent collective death imprints itself on the landscape; specific anniversaries are observed by residents and visitors at major battlefield sites."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "A Great Wonder in Heaven (London, 1643)",
+        "Mark Nesbitt - Ghosts of Gettysburg series (1991-)",
+        "Peter Underwood - books on British battlefield ghosts"
+      ],
+      "film_tv": [
+        "Battlefield ghost-themed episodes of long-running paranormal television series (e.g. Ghost Hunters, Most Haunted)",
+        "Cretan tourism documentaries on the Drosoulites"
+      ],
       "games": [],
-      "other": []
+      "other": [
+        "Battlefield-tourism industries at Gettysburg, Edgehill, and Frangokastello"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Mark Nesbitt", "affiliation": "Ghosts of Gettysburg Tours", "contribution": "Multi-volume Ghosts of Gettysburg series documenting battlefield apparition reports", "period": "1991-present" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Battlefield apparition reports continue to be documented in popular paranormal literature; no peer-reviewed scientific research programme exists, though atmospheric-optics explanations (Fata Morgana) have been published for the Drosoulites."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "wikipedia-drosoulites",
+      "type": "website",
+      "title": "Drosoulites",
+      "publication": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Drosoulites",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "great-wonder-1643",
+      "type": "archive",
+      "title": "A Great Wonder in Heaven",
+      "publication": "London (anonymous pamphlet)",
+      "date": "1643-01-23"
+    },
+    {
+      "id": "historic-uk-edgehill",
+      "type": "website",
+      "title": "Ghostly Battle of Edgehill",
+      "publication": "Historic UK",
+      "url": "https://www.historic-uk.com/HistoryUK/HistoryofEngland/Phantom-Battle-of-Edgehill/",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "nesbitt-ghosts-gettysburg",
+      "type": "book",
+      "title": "Ghosts of Gettysburg: Spirits, Apparitions and Haunted Places of the Battlefield",
+      "authors": ["Mark Nesbitt"],
+      "publication": "Thomas Publications",
+      "date": "1991",
+      "isbn": "978-0939631049"
+    }
+  ]
 }
